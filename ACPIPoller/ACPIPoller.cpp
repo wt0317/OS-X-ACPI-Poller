@@ -161,7 +161,7 @@ IOReturn ACPIPoller::OnTimerEvent()
     if (NULL != m_pTimer)
     {
         m_pTimer->cancelTimeout();
-        m_pTimer->setTimeoutMS(1000);
+        m_pTimer->setTimeoutMS(3000);
     }
     
     m_fInTimer = false;
