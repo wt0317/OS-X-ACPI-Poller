@@ -37,7 +37,7 @@
 			<key>IOClass</key>
 			<string>org_rehabman_ACPIPoller</string>
 			<key>IONameMatch</key>
-			<string>FAN00000</string>
+			<string>MON0000</string>
 			<key>Methods</key>
 			<array>
 				<string>FCPU</string>
